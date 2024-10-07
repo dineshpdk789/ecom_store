@@ -23,6 +23,7 @@ const Cart = () => {
     email: user?.emailAddresses[0].emailAddress,
     name: user?.fullName,
   };
+  console.log(customer)
 
   const handleCheckout = async () => {
     try {
